@@ -1711,7 +1711,7 @@
         <h2><a name="model-overview" class="md-header-anchor"></a><span>Model overview</span></h2>
         <p><img src="./assets/p2iseq_model.png" alt="P2iSeq Model" style="zoom:50%;" /></p>
         <p align="center"> Paragraph to image-Sequence model (P2iSeq). </p>
-        <p><span>As shown in the image above and similar to the StoryGAN, the model comprehends a sequential Generative
+        <p><span>As shown in the image above and similar to the StoryGAN, the model is a sequential Generative
                 Adversarial Network (GAN) with two discriminators (the image discriminator for local consistency and
                 story discriminator for global consistency). For the generation, it receives the encoded story coming
                 from a DistilBERT pre-trained encoder as the first hidden vector (</span><span class="MathJax_SVG"
@@ -2737,14 +2737,14 @@
                 image-to-image distribution at the same time it had to interpolate or try to create images that shown
                 the same amount of information in less amount of images. </span></p>
         <h2><a name="future-work" class="md-header-anchor"></a><span>Future work</span></h2>
-        <p><span>Another complicated parameter to tune in the training process, was the ratio of summarized senteces of
+        <p><span>Another complicated parameter to tune in the training process, was the ratio of summarized sentences of
                 the extractive module. Hence, we believe adding a soft-relaxation to the sentence selection process
                 would help the model identify the correct amount of sentences to generate at training time, as it would
                 backpropagate the error when generating the incorrect amount of images for a given story.</span></p>
         <p><img src="./assets/future_work.png" alt="Soft-relaxation in sentences extraction" style="zoom:50%;" /></p>
         <p align="center"> Soft selection mask in summarization module to allow backpropagation. </p>
         <p><span>And additional to investigating this proposed approach, we consider it&#39;d be interesting to validate
-                the model in a broader datase with ground truths counterparts are selected from longer written
+                the model in a broader dataset with ground truths counterparts are selected from longer written
                 stories.</span></p>
         <p>&nbsp;</p>
         <hr />
@@ -3281,7 +3281,8 @@
         <span>[19] J.-Y. Zhu, T. Park, P. Isola, and A. A. Efros. Unpaired image-to-image translation using
             cycle-consistent adversarial networks. ICCV, 2017.</span><br>
         <span>[20] S. Sharma, D. Suhubdy, V. Michalski, S. E. Kahou, and Y. Bengio. Chatpainter: Improving text to image
-            generation using dialogue. arXiv preprint arXiv:1802.08216, 2018.[21] C. Vondrick, H. Pirsiavash, and A.
+            generation using dialogue. arXiv preprint arXiv:1802.08216, 2018.<br>
+            [21] C. Vondrick, H. Pirsiavash, and A.
             Torralba. Generating videos with scene dynamics. In NIPS, 2016.</span><br>
         <span>[22] D. Miller. Leveraging BERT for Extractive Text Summarization on Lectures. arXiv:1906.04165.</span><br>
         <span>[23] K. Clark, C. Manning. Improving Coreference Resolution by Learning Entity-Level Distributed
