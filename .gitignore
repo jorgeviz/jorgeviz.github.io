@@ -1,2 +1,4 @@
 *.pdf
 .envvars
+.eslint*
+node_modules/
