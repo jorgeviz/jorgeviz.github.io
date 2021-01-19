@@ -2,3 +2,5 @@
 .envvars
 .eslint*
 node_modules/
+.DS*
+build/
