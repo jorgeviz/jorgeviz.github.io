@@ -30,12 +30,12 @@ export default class ProjectsSection extends React.Component {
                     <div className="wow fadeInLeft" data-wow-delay="0.2s">
                     <div className="service-box">
                         <div className="service-icon">
-                        <a href="https://www.youtube.com/watch?v=3aRdPYs1Qh8&vl=es-419">
+                        <a href="https://www.kickstarter.com/projects/tuibo/tuibo-the-first-smart-garment-for-cyclists">
                             <img src="img/icons/tuibo.png" alt="Tuibo" width="180px;" />
                         </a>
                         </div>
                         <div className="service-desc">
-                        <h5><a href="https://www.youtube.com/watch?v=3aRdPYs1Qh8&vl=es-419" style={{color: '#666'}}>Tuibo</a></h5>
+                        <h5><a href="https://www.kickstarter.com/projects/tuibo/tuibo-the-first-smart-garment-for-cyclists" style={{color: '#666'}}>Tuibo</a></h5>
                         <p>Smart wearable device for cyclists: a Bluetooth® controlled vest, capable to show turning signals,
                             braking light, headlight and a horn.
                         </p>
