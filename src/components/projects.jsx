@@ -26,7 +26,7 @@ export default class ProjectsSection extends React.Component {
                 </div>
                 </div>
                 <div className="row" style={{marginTop: '30px'}}>
-                <div className="col-md-4">
+                <div className="col-md-3">
                     <div className="wow fadeInLeft" data-wow-delay="0.2s">
                     <div className="service-box">
                         <div className="service-icon">
@@ -43,7 +43,7 @@ export default class ProjectsSection extends React.Component {
                     </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-3">
                     <div className="wow fadeInUp" data-wow-delay="0.2s">
                     <div className="service-box">
                         <div className="service-icon">
@@ -61,7 +61,7 @@ export default class ProjectsSection extends React.Component {
                     </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-3">
                     <div className="wow fadeInUp" data-wow-delay="0.2s">
                     <div className="service-box">
                         <div className="service-icon">
@@ -74,6 +74,30 @@ export default class ProjectsSection extends React.Component {
                         <p>A light weight implementation to perform batch and on demand asynchronous jobs using Flask as Web
                             framework
                             and PySpark as the analytical engine. (In dev.)
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div className="col-md-3">
+                    <div className="wow fadeInUp" data-wow-delay="0.2s">
+                    <div className="service-box">
+                        
+                        <div className="service-icon" style={{marginTop: '-10px'}}>
+                            <a href="https://github.com/jorgeviz/rliable">
+                                <img src="img/icons/rliable-logo.png" alt="RLiable" width="100px;" />
+                            </a>
+                        </div>                        
+                        <div className="service-desc">
+                        
+                        <h5><a href="https://github.com/jorgeviz/rliable" style={{color: '#666', marginBottom: '-5px'}}>RLiable</a>
+                        </h5>
+                        <div style={{textAlign: 'center', marginTop: '-10px'}}>
+                            <a><img width='35%' src="https://github.com/jorgeviz/rliable/workflows/Code%20Linting/badge.svg"></img></a>
+                        </div>
+                        <p> An experimentation framework for fast hyper-parameter 
+                            tuning of reinforcement learning agents. It distributes TensorFlow 
+                            models with Spark allowing to scale experimentation in an easy and reliable way.
                         </p>
                         </div>
                     </div>

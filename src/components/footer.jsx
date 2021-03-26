@@ -26,12 +26,12 @@ export default class Footer extends React.Component {
                 </div>
                 </div>
                 <ul className="icons" style={{marginTop: '50px'}}>
-                <li><a href="mailto:ja.vizcayno@gmail.com" className="icon fa-mail-reply" /></li>
-                <li><a href="https://www.facebook.com/jorge.vizcayno" className="icon fa-facebook" /></li>
+                <li><a href="mailto:ja.vizcayno@gmail.com" className="icon fa-envelope" /></li>
+                {/* <li><a href="https://www.facebook.com/jorge.vizcayno" className="icon fa-facebook" /></li> */}
                 {/* <li><a href="#" class="icon fa-twitter"></a></li> */}
-                <li><a href="https://instagram.com/vizjrge/" className="icon fa-instagram" /></li>
+                {/* <li><a href="https://instagram.com/vizjrge/" className="icon fa-instagram" /></li> */}
                 <li><a href="https://github.com/jorgeviz/" className="icon fa-github" /></li>
-                <li><a href="https://bitbucket.org/jorgeviz/" className="icon fa-bitbucket" /></li>
+                {/* <li><a href="https://bitbucket.org/jorgeviz/" className="icon fa-bitbucket" /></li> */}
                 {/*<li><a href="https://plus.google.com/+JorgeVizcayno" class="icon fa-google-plus"></a></li>*/}
                 <li><a href="https://medium.com/@jorgeviz">
                     <img src="img/icons/medium-logo.png" width={45} style={{paddingBottom: '20px'}} />
@@ -49,7 +49,7 @@ export default class Footer extends React.Component {
                     Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Squadfree
                     */}
                     <a href="https://bootstrapmade.com/bootstrap-one-page-templates/">Credits: Bootstrap One Page Templates</a>
-                    by BootstrapMade
+                    &nbsp;by BootstrapMade
                 </div>
                 </ul>
             </div>
