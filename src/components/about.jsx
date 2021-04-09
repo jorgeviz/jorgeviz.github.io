@@ -38,7 +38,7 @@ export default class AboutSection extends React.Component {
                     </div>
                 </div>
                 <div className="col-md-1" />
-                <div className="col-md-5">
+                <div className="col-md-5" style={{textAlign:'justify'}}>
                     <p style={{paddingTop: '20px'}}>
                     Jorge is currently a graduate student at the <a href="https://usc.edu"> University of Southern California </a>
                     with a focus in Machine Learning, and a research assistant at the <a href="http://clvrai.com">CLVR Lab </a>
@@ -46,10 +46,7 @@ export default class AboutSection extends React.Component {
                     He worked as the Head of Technology at <a href="https://byprice.com">ByPrice</a>, mainly concentrated on
                     scaling system architecture for
                     internationalization to yield a data-driven strategy across multiple cloud platforms (GCP and AWS). Before that, he worked as a mixed Data Scientist
-                    creating data-intensive solutions for users and costumers. Such solutions involved data munging processes, information integration from different web sources and combined
-                    NLP-Computer vision classification tasks. As a web developer, he contributed to implementing REST APIs for
-                    critical services such as session tokenization, price and product catalogues, 
-                    etc.<br /><br />
+                    / Web developer creating data-intensive solutions for users and costumers. <br /><br />
                     He graduated from the Faculty of Engineering at  <a href="http://www.ingenieria.unam.mx/">UNAM</a> in Mexico,
                     where he obtained
                     a B.Sc. in Mechatronics Engineering. There, his thesis <a href="http://www.ptolomeo.unam.mx:8080/xmlui/bitstream/handle/132.248.52.100/10967/Tesis_JAVG_v3.pdf?sequence=1">

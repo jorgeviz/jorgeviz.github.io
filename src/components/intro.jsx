@@ -10,7 +10,7 @@ export default class IntroSection extends React.Component {
                         {/* <span style="font-size: 28px;"> I'm </span>*/}
                         <span className="text_color">Jorge VIZCAYNO</span>
                     </h2>
-                    <h4>AI ENTHUSIAST, DATA SCIENTIST, WEB DEV AND ROBOTICS PRACTITIONER.</h4>
+                    <h4> DOER - LEARNER - ENGINEER</h4>
                 </div>
             </section>
         );
